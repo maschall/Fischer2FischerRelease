@@ -1,0 +1,347 @@
+2019-05-08 14:42:01 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc7e97f5da0; archive(resolved)='<IDEArchive: 0x7fc7e93a7300>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc7e8616110; teamID='2Z262HL3RX', teamName='Detroit Labs, LLC', teamType='Company', username='mark@detroitlabs.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc7e97f5da0; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc7e8616110; teamID='2Z262HL3RX', teamName='Detroit Labs, LLC', teamType='Company', username='mark@detroitlabs.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc7e9074ea0; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc7e8616110; teamID='2Z262HL3RX', teamName='Detroit Labs, LLC', teamType='Company', username='mark@detroitlabs.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc7e948c520; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc7e8616110; teamID='2Z262HL3RX', teamName='Detroit Labs, LLC', teamType='Company', username='mark@detroitlabs.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc7ea8ddc50; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc7e8616110; teamID='2Z262HL3RX', teamName='Detroit Labs, LLC', teamType='Company', username='mark@detroitlabs.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc7e98c6340; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc7e8616110; teamID='2Z262HL3RX', teamName='Detroit Labs, LLC', teamType='Company', username='mark@detroitlabs.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc7e9d5b1a0; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc7e8616110; teamID='2Z262HL3RX', teamName='Detroit Labs, LLC', teamType='Company', username='mark@detroitlabs.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc7e989e620; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc7e8616110; teamID='2Z262HL3RX', teamName='Detroit Labs, LLC', teamType='Company', username='mark@detroitlabs.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc7e9895490; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc7e8616110; teamID='2Z262HL3RX', teamName='Detroit Labs, LLC', teamType='Company', username='mark@detroitlabs.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc7e999b750; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc7e8616110; teamID='2Z262HL3RX', teamName='Detroit Labs, LLC', teamType='Company', username='mark@detroitlabs.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc7e999b140; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='(null)'>
+	<IDEDistributionContext: 0x7fc7e9862230; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc7e91cc880>', team='(null)'>
+	<IDEDistributionContext: 0x7fc7e9954180; archive = '<IDEArchive: 0x7fc7e93a7300>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc7e97f5da0>
+2019-05-08 14:42:01 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-05-08 14:42:01 +0000  Processing step: IDEDistributionCopyItemStep
+2019-05-08 14:42:01 +0000  Running /usr/bin/ditto '-V' '/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app'
+2019-05-08 14:42:01 +0000  >>> Copying /Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app 
+2019-05-08 14:42:01 +0000  
+2019-05-08 14:42:01 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-05-08 14:42:01 +0000  6917 bytes for ./_CodeSignature/CodeResources
+2019-05-08 14:42:01 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2019-05-08 14:42:01 +0000  939 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2019-05-08 14:42:01 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2019-05-08 14:42:01 +0000  1136 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2019-05-08 14:42:01 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-05-08 14:42:01 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2019-05-08 14:42:01 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-05-08 14:42:01 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-05-08 14:42:01 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-05-08 14:42:01 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-05-08 14:42:01 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-05-08 14:42:01 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-05-08 14:42:01 +0000  copying file ./Fischer2Fischer ... 
+2019-05-08 14:42:01 +0000  137856 bytes for ./Fischer2Fischer
+2019-05-08 14:42:01 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2019-05-08 14:42:01 +0000  466560 bytes for ./Frameworks/libswiftCoreImage.dylib
+2019-05-08 14:42:01 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2019-05-08 14:42:01 +0000  679680 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2019-05-08 14:42:01 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2019-05-08 14:42:01 +0000  95497584 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2019-05-08 14:42:01 +0000  2041040 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+2019-05-08 14:42:01 +0000  copying file ./Frameworks/libswiftUIKit.dylib ... 
+2019-05-08 14:42:01 +0000  1608800 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2019-05-08 14:42:01 +0000  724416 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2019-05-08 14:42:01 +0000  4056896 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2019-05-08 14:42:01 +0000  857184 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2019-05-08 14:42:01 +0000  450384 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2019-05-08 14:42:01 +0000  1091440 bytes for ./Frameworks/libswiftDarwin.dylib
+2019-05-08 14:42:01 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2019-05-08 14:42:01 +0000  486336 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2019-05-08 14:42:01 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2019-05-08 14:42:01 +0000  43094320 bytes for ./Frameworks/libswiftFoundation.dylib
+2019-05-08 14:42:01 +0000  copying file ./embedded.mobileprovision ... 
+45910 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1131 bytes for ./Info.plist
+2019-05-08 14:42:01 +0000  copying file ./PkgInfo ... 
+2019-05-08 14:42:01 +0000  8 bytes for ./PkgInfo
+2019-05-08 14:42:01 +0000  /usr/bin/ditto exited with 0
+2019-05-08 14:42:01 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-05-08 14:42:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e985da30 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc7e98645c0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCore.dylib'>'>
+2019-05-08 14:42:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e99babc0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc7e99a9980:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-05-08 14:42:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e99c5450 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc7e99af700:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-05-08 14:42:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e99b4340 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc7e9871f70:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib'>'>
+2019-05-08 14:42:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e99c78f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc7e999d460:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e974f690 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc7e71dddc0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e9996fa0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc7e98513d0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e99d8a00 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc7e99ac500:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e99d3d20 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc7e9875010:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e9974aa0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc7e975c380:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e99d2b60 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc7e9876e60:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc7e99ca520 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc7e9875a10:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftos.dylib'>'>
+2019-05-08 14:42:02 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-05-08 14:42:02 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-05-08 14:42:02 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-05-08 14:42:02 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-05-08 14:42:02 +0000  Processing step: IDEDistributionSymbolsStep
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-05-08 14:42:02 +0000  Processing step: IDEDistributionAppThinningStep
+2019-05-08 14:42:02 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-05-08 14:42:02 +0000  Processing step: IDEDistributionArchThinningStep
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCore.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftos.dylib'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-05-08 14:42:02 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2019-05-08 14:42:02 +0000  Running /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Fischer2Fischer' '-verify_arch' 'arm64e'
+2019-05-08 14:42:02 +0000  /Users/markschall/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-05-08 14:42:02 +0000  Skipping architecture thinning for item "Fischer2Fischer" because arch "arm64e" wasn't found
+2019-05-08 14:42:02 +0000  Processing step: IDEDistributionODRStep
+2019-05-08 14:42:02 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e985da30 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc7e98645c0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCore.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e99babc0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc7e99a9980:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e99c5450 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc7e99af700:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e99b4340 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc7e9871f70:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e99c78f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc7e999d460:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e974f690 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc7e71dddc0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e9996fa0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc7e98513d0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e99d8a00 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc7e99ac500:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e99d3d20 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc7e9875010:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e9974aa0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc7e975c380:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e99d2b60 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc7e9876e60:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib'>'>
+2019-05-08 14:42:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc7e99ca520 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc7e9875a10:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftos.dylib'>'>
+2019-05-08 14:42:02 +0000  Running /usr/bin/xattr '-crs' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app'
+2019-05-08 14:42:03 +0000  /usr/bin/xattr exited with 0
+2019-05-08 14:42:03 +0000  Processing step: IDEDistributionCodesignStep
+2019-05-08 14:42:03 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e985da30 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc7e98645c0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2019-05-08 14:42:03 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e985da30 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc7e98645c0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~N67Pbm
+2019-05-08 14:42:03 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~N67Pbm' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCore.dylib'
+2019-05-08 14:42:13 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2019-05-08 14:42:13 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:13 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e99babc0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc7e99a9980:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2019-05-08 14:42:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e99babc0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc7e99a9980:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~0e67um
+2019-05-08 14:42:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~0e67um' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-05-08 14:42:14 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-05-08 14:42:14 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e99c5450 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc7e99af700:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2019-05-08 14:42:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e99c5450 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc7e99af700:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~dzc2gm
+2019-05-08 14:42:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~dzc2gm' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-05-08 14:42:14 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-05-08 14:42:14 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e99b4340 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc7e9871f70:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2019-05-08 14:42:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e99b4340 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc7e9871f70:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~Kpgdox
+2019-05-08 14:42:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~Kpgdox' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib'
+2019-05-08 14:42:14 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2019-05-08 14:42:14 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e99c78f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc7e999d460:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2019-05-08 14:42:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e99c78f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc7e999d460:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~AyDdwA
+2019-05-08 14:42:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~AyDdwA' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib'
+2019-05-08 14:42:14 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2019-05-08 14:42:14 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e974f690 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc7e71dddc0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2019-05-08 14:42:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e974f690 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc7e71dddc0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~8wndKH
+2019-05-08 14:42:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~8wndKH' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib'
+2019-05-08 14:42:14 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2019-05-08 14:42:14 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e9996fa0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc7e98513d0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2019-05-08 14:42:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e9996fa0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc7e98513d0:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~2wOY4B
+2019-05-08 14:42:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~2wOY4B' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib'
+2019-05-08 14:42:14 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2019-05-08 14:42:14 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e99d8a00 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc7e99ac500:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2019-05-08 14:42:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e99d8a00 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc7e99ac500:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~9pynLH
+2019-05-08 14:42:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~9pynLH' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib'
+2019-05-08 14:42:14 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2019-05-08 14:42:14 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e99d3d20 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc7e9875010:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2019-05-08 14:42:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e99d3d20 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc7e9875010:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~AA74jZ
+2019-05-08 14:42:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~AA74jZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib'
+2019-05-08 14:42:15 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-05-08 14:42:15 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e9974aa0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc7e975c380:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2019-05-08 14:42:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e9974aa0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc7e975c380:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~7zbuea
+2019-05-08 14:42:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~7zbuea' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib'
+2019-05-08 14:42:15 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2019-05-08 14:42:15 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e99d2b60 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc7e9876e60:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2019-05-08 14:42:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e99d2b60 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc7e9876e60:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~YmwTRR
+2019-05-08 14:42:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~YmwTRR' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib'
+2019-05-08 14:42:15 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2019-05-08 14:42:15 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e99ca520 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc7e9875a10:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2019-05-08 14:42:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e99ca520 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc7e9875a10:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~HfLNVV
+2019-05-08 14:42:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~HfLNVV' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftos.dylib'
+2019-05-08 14:42:15 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2019-05-08 14:42:15 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc7e99db520 'com.yates2.Fischer2Fischer' '<DVTFilePath:0x7fc7e9827b80:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app'>'>: {
+    "application-identifier" = "2Z262HL3RX.com.yates2.Fischer2Fischer";
+    "com.apple.developer.team-identifier" = 2Z262HL3RX;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "2Z262HL3RX.com.yates2.Fischer2Fischer"
+    );
+}
+2019-05-08 14:42:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc7e99db520 'com.yates2.Fischer2Fischer' '<DVTFilePath:0x7fc7e9827b80:'/Users/markschall/Library/Developer/Xcode/Archives/2019-05-08/Fischer2Fischer 5-8-19, 10.37 AM.xcarchive/Products/Applications/Fischer2Fischer.app'>'> to: /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~MruOIA
+2019-05-08 14:42:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86F23A9628098F036467AD3A33B79F92494654C2' '--entitlements' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/entitlements~~~MruOIA' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app'
+2019-05-08 14:42:15 +0000  /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root/Payload/Fischer2Fischer.app: signed app bundle with Mach-O thin (arm64) [com.yates2.Fischer2Fischer]
+2019-05-08 14:42:15 +0000  /usr/bin/codesign exited with 0
+2019-05-08 14:42:15 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-05-08 14:42:15 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-05-08 14:42:15 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root' '/var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Packages/Fischer2Fischer.ipa'
+2019-05-08 14:42:15 +0000  >>> Copying /var/folders/ph/y20vlc6x7fqbwh168rks9nph0000gn/T/XcodeDistPipeline.~~~x9WixF/Root 
+2019-05-08 14:42:15 +0000  copying file ./Payload/Fischer2Fischer.app/_CodeSignature/CodeResources ... 
+2019-05-08 14:42:15 +0000  6917 bytes for ./Payload/Fischer2Fischer.app/_CodeSignature/CodeResources
+2019-05-08 14:42:15 +0000  copying file ./Payload/Fischer2Fischer.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2019-05-08 14:42:15 +0000  939 bytes for ./Payload/Fischer2Fischer.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/Fischer2Fischer.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2019-05-08 14:42:15 +0000  1136 bytes for ./Payload/Fischer2Fischer.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Fischer2Fischer.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Fischer2Fischer.app/Base.lproj/Main.storyboardc/Info.plist
+2019-05-08 14:42:15 +0000  copying file ./Payload/Fischer2Fischer.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1136 bytes for ./Payload/Fischer2Fischer.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Fischer2Fischer.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-05-08 14:42:15 +0000  832 bytes for ./Payload/Fischer2Fischer.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Fischer2Fischer.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-05-08 14:42:15 +0000  258 bytes for ./Payload/Fischer2Fischer.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Fischer2Fischer.app/Fischer2Fischer ... 
+2019-05-08 14:42:15 +0000  71824 bytes for ./Payload/Fischer2Fischer.app/Fischer2Fischer
+2019-05-08 14:42:15 +0000  copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib ... 
+2019-05-08 14:42:15 +0000  253648 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib ... 
+2019-05-08 14:42:15 +0000  302640 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftCore.dylib ... 
+2019-05-08 14:42:16 +0000  16915040 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2019-05-08 14:42:16 +0000  646848 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib ... 
+2019-05-08 14:42:16 +0000  477168 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib ... 
+2019-05-08 14:42:16 +0000  298112 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib ... 
+2019-05-08 14:42:16 +0000  1018912 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftos.dylib ... 
+2019-05-08 14:42:16 +0000  299424 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftos.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2019-05-08 14:42:16 +0000  253792 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib ... 
+2019-05-08 14:42:16 +0000  369728 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib ... 
+2019-05-08 14:42:16 +0000  256864 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib ... 
+2019-05-08 14:42:16 +0000  8479552 bytes for ./Payload/Fischer2Fischer.app/Frameworks/libswiftFoundation.dylib
+2019-05-08 14:42:16 +0000  /usr/bin/ditto exited with 0
+2019-05-08 14:42:16 +0000  copying file ./Payload/Fischer2Fischer.app/embedded.mobileprovision ... 
+11014 bytes for ./Payload/Fischer2Fischer.app/embedded.mobileprovision
+copying file ./Payload/Fischer2Fischer.app/Info.plist ... 
+1131 bytes for ./Payload/Fischer2Fischer.app/Info.plist
+copying file ./Payload/Fischer2Fischer.app/PkgInfo ... 
+8 bytes for ./Payload/Fischer2Fischer.app/PkgInfo
+2019-05-08 14:42:16 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-05-08 14:42:16 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-05-08 14:42:16 +0000  Processing step: IDEDistributionCreateManifestStep

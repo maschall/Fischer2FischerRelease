@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Fischer2Fischer.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>86F23A9628098F036467AD3A33B79F92494654C2</string>
+				<key>dateExpires</key>
+				<string>1/28/20</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>2Z262HL3RX.com.yates2.Fischer2Fischer</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>2Z262HL3RX</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>2Z262HL3RX.com.yates2.Fischer2Fischer</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Fischer2Fischer.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>36e0a7ea-8a67-47ab-82a6-eb8629d9cdb0</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>2Z262HL3RX</string>
+				<key>name</key>
+				<string>Detroit Labs, LLC</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
